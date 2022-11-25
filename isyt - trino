@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T10:34:01.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" version="20.5.3" etag="jPVVN35RkZWW6YdiMwwD" type="github"><diagram id="TbNH-UdO6Us5Jl8S_spM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-25T10:46:26.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" etag="3DUfh9pbh1hQH4eYPvtZ" version="20.5.3" type="github">
+  <diagram id="TbNH-UdO6Us5Jl8S_spM" name="Page-1">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jiMYHpX16xnPZOM337tQ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-2" value="DBT Connector" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="130" width="85" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-3" value="DBT Models&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="195" y="310" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-4" value="/Project1/Model1&lt;br&gt;/Project1/Model2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.013;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jiMYHpX16xnPZOM337tQ-3" target="jiMYHpX16xnPZOM337tQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="sourcePoint" />
+            <mxPoint x="430" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="177" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-6" value="SELECT measure&lt;br&gt;FROM metric&lt;br&gt;WHERE&lt;br&gt;DIMENSION = X&lt;br&gt;GRAIN = Y" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="20" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="125" width="125" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-8" value="Schema = Project1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="125" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jiMYHpX16xnPZOM337tQ-9" target="jiMYHpX16xnPZOM337tQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-9" value="Table1 = Model1&lt;br&gt;Table2 = Model2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="423.75" y="165" width="97.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.983;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jiMYHpX16xnPZOM337tQ-6" target="jiMYHpX16xnPZOM337tQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-11" value="Redshift" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jiMYHpX16xnPZOM337tQ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="jiMYHpX16xnPZOM337tQ-1" target="jiMYHpX16xnPZOM337tQ-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
